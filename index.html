@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DORIA | Tienda de perfumes en Carmen de Carupa</title>
+  <meta name="description" content="DORIA es una tienda de perfumes en Carmen de Carupa, Calle 2 #094. Fragancias elegidas con criterio, a cargo de José Luis Doria Tapia.">
+  <meta name="theme-color" content="#100e0c">
+  <meta property="og:title" content="DORIA | Tienda de perfumes en Carmen de Carupa">
+  <meta property="og:description" content="Tienda de perfumes en Carmen de Carupa. Sede en la Calle 2 #094.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1600&q=80">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>
+    document.documentElement.classList.add("js");
+    if (location.search.indexOf("embed=1") !== -1) document.documentElement.classList.add("is-embed");
+    try { if (localStorage.getItem("pineda_cookie_consent")) document.documentElement.classList.add("cookies-set"); } catch (e) {}
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "DORIA",
+    "legalName": "José Luis Doria Tapia",
+    "description": "Tienda de perfumes en Carmen de Carupa.",
+    "email": "joanau158@gmail.com",
+    "telephone": "+573219073565",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle 2 #094",
+      "addressLocality": "Carmen de Carupa",
+      "addressRegion": "Cundinamarca",
+      "postalCode": "250420",
+      "addressCountry": "CO"
+    }
+  }
+  </script>
+</head>
+<body data-page="inicio">
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div>
+      <p class="preloader-kicker">Tienda de perfumes</p>
+      <p class="preloader-name">DORIA</p>
+      <span class="preloader-line"></span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="header-bar">
+      <a class="brand" href="index.html" aria-label="DORIA, inicio">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 36 36" width="34" height="34"><rect x="1" y="1" width="34" height="34" fill="none" stroke="currentColor"/><path fill="currentColor" d="M11 8h8.5c6.2 0 10 4.2 10 10s-3.8 10-10 10H11V8zm4 3.4v13.2h4.2c3.6 0 5.8-2.4 5.8-6.6s-2.2-6.6-5.8-6.6H15z"/></svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name" data-bind="nombre">DORIA</span>
+          <span class="brand-sub">Tienda de perfumes</span>
+        </span>
+      </a>
+      <nav class="nav" id="site-nav" aria-label="Principal">
+        <a href="index.html" data-nav="inicio">Inicio</a>
+        <a href="index.html#casa">La casa</a>
+        <a href="index.html#oficio">Oficio</a>
+        <a href="index.html#historia">Historia</a>
+        <a href="index.html#galeria">Galería</a>
+        <a href="contacto.html" data-nav="contacto">Contacto</a>
+        <a class="btn btn-gold menu-cta" href="contacto.html">Solicitar cita</a>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn-gold btn-sm header-cta" href="contacto.html">Solicitar cita</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" aria-label="Portada">
+      <div class="hero-slides" aria-hidden="true">
+        <div class="hero-slide is-active" style="background-image:url('https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=2000&q=80')"></div>
+        <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=2000&q=80')"></div>
+        <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=2000&q=80')"></div>
+        <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=2000&q=80')"></div>
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-layout">
+        <p class="eyebrow light">Carmen de Carupa · <span data-bind="rubro">Tienda de perfumes</span></p>
+        <h1 data-bind="nombre">DORIA</h1>
+        <p class="hero-slogan" data-bind="slogan">Fragancias elegidas con criterio, para permanecer.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="#casa">Conocer más</a>
+          <a class="btn btn-ghost" href="contacto.html">Contactar</a>
+          <a class="btn btn-ghost" data-bind-href="whatsappHref" href="https://wa.me/573219073565?text=Hola.%20Escribo%20desde%20el%20sitio%20de%20DORIA.%20Deseo%20conversar%20sobre%20un%20perfume." target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+        <div class="hero-bottom">
+          <p class="hero-meta">
+            <span data-bind="direccionCompleta">Calle 2 #094, Carmen de Carupa, Cundinamarca, 250420</span>
+          </p>
+          <div class="hero-ui">
+            <button class="hero-arrow" type="button" data-hero="prev" aria-label="Imagen anterior">←</button>
+            <div class="hero-dots" role="tablist" aria-label="Imágenes de portada"></div>
+            <button class="hero-arrow" type="button" data-hero="next" aria-label="Imagen siguiente">→</button>
+            <a class="hero-scroll" href="#casa">Descender</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-group">
+          <span>Eau de parfum</span><i class="dot"></i><span>Notas de salida</span><i class="dot"></i><span>Corazón</span><i class="dot"></i><span>Fondo</span><i class="dot"></i><span>Regalo</span><i class="dot"></i><span>Tienda en Carmen de Carupa</span><i class="dot"></i><span>Consejo</span><i class="dot"></i><span>Autenticidad</span><i class="dot"></i><span>Permanencia</span><i class="dot"></i><span>Oficio</span><i class="dot"></i>
+        </div>
+        <div class="marquee-group">
+          <span>Eau de parfum</span><i class="dot"></i><span>Notas de salida</span><i class="dot"></i><span>Corazón</span><i class="dot"></i><span>Fondo</span><i class="dot"></i><span>Regalo</span><i class="dot"></i><span>Tienda en Carmen de Carupa</span><i class="dot"></i><span>Consejo</span><i class="dot"></i><span>Autenticidad</span><i class="dot"></i><span>Permanencia</span><i class="dot"></i><span>Oficio</span><i class="dot"></i>
+        </div>
+      </div>
+    </div>
+
+    <section class="section" id="casa">
+      <div class="container casa-grid">
+        <div class="casa-copy">
+          <div class="section-head reveal">
+            <p class="eyebrow"><span>01</span> La casa</p>
+            <h2>Elegimos perfumes para quienes buscan una fragancia con calma.</h2>
+            <p class="lede">DORIA es una tienda de perfumes en Carmen de Carupa, a cargo de José Luis Doria Tapia. La sede está en la Calle 2 #094 y el oficio es directo: escuchamos, explicamos y entregamos.</p>
+          </div>
+          <div class="prose reveal">
+            <p>En un mercado acostumbrado al frasco anónimo y a la promesa inflada, esta casa trabaja de otro modo. Escucha el gusto, nombra las notas y muestra el perfume antes de que usted decida. El resultado es una elección sobria, con origen claro y una fragancia pensada para permanecer en la memoria.</p>
+            <p>Atendemos a personas que buscan un perfume de uso diario, un obsequio o una fragancia para una ocasión concreta. No ofrecemos un estante mudo como sustituto de la conversación. Ofrecemos un método: comprender el uso, proponer opciones, explicarlas con control y entregar el frasco con las indicaciones de cuidado.</p>
+            <p>La sede de Carmen de Carupa concentra la selección, la conservación y el consejo. Esa concentración importa. Quien explica una nota es la misma casa que responde por el frasco cuando usted se lo lleva. Usted no persigue un producto repartido entre terceros: habla con DORIA.</p>
+            <p>Cada perfume conserva su carácter. Las familias aromáticas —cítricas, florales, amaderadas, orientales— se presentan con respeto por lo que son, no por una etiqueta que prometa otra cosa. Esa es la idea de alta gama que defendemos: no el ornamento excesivo, sino la autenticidad, la explicación verdadera y el trato claro.</p>
+            <p>Cada conversación queda en un mismo hilo, del primer mensaje a la entrega. Puede escribirnos a <a data-bind-href="emailHref" href="mailto:joanau158@gmail.com"><span data-bind="email">joanau158@gmail.com</span></a> o al <a data-bind-href="whatsappHref" href="https://wa.me/573219073565" target="_blank" rel="noopener noreferrer"><span data-bind="celular">+57 321 907 3565</span></a>.</p>
+          </div>
+          <div class="btn-row reveal">
+            <a class="btn btn-dark" href="#oficio">Conocer el oficio</a>
+            <a class="btn btn-line" href="contacto.html">Escribir a la tienda</a>
+          </div>
+        </div>
+        <div class="casa-gallery">
+          <figure class="zoom-media casa-img-a reveal">
+            <img src="https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?auto=format&fit=crop&w=1400&q=80" alt="Frascos de perfume sobre una superficie de mármol" width="900" height="1120">
+          </figure>
+          <p class="figcap">La fragancia se explica antes de que se elija.</p>
+          <figure class="zoom-media casa-img-b reveal">
+            <img src="https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=1400&q=80" alt="Colección de perfumes dispuesta con calma" width="1000" height="700" loading="lazy">
+          </figure>
+          <aside class="casa-note reveal">
+            <p class="kicker">Responsable</p>
+            <p data-bind="responsable">José Luis Doria Tapia</p>
+            <p class="kicker">Sede de la tienda</p>
+            <p data-bind="direccionCompleta">Calle 2 #094, Carmen de Carupa, Cundinamarca, 250420</p>
+            <p data-bind="horario">Lunes a viernes de 8:00 a 17:30 · Sábados de 9:00 a 13:00</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="oficio" id="oficio">
+      <div class="oficio-visual" aria-hidden="true">
+        <img class="is-on" src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1600&q=80" alt="">
+        <img src="https://images.unsplash.com/photo-1595425970377-c970029bf94e?auto=format&fit=crop&w=1600&q=80" alt="">
+        <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1600&q=80" alt="">
+        <img src="https://images.unsplash.com/photo-1563170351-be82bc888aa4?auto=format&fit=crop&w=1600&q=80" alt="">
+        <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1600&q=80" alt="">
+        <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1600&q=80" alt="">
+      </div>
+      <div class="oficio-list">
+        <div class="section-head">
+          <p class="eyebrow light"><span>02</span> Oficio</p>
+          <h2>Lo que la casa ofrece, y lo que se niega a improvisar.</h2>
+        </div>
+        <button class="oficio-item is-active" type="button" aria-expanded="true">
+          <span class="oficio-kicker">01</span>
+          <h3>Perfume de uso diario</h3>
+          <p>Fragancias para llevar con naturalidad, sin que compitan con el día. Escuchamos el gusto, la piel y la ocasión habitual. El frasco no se impone desde un estante mudo: se propone cuando usted ha entendido las notas y ha decidido con calma.</p>
+        </button>
+        <button class="oficio-item" type="button" aria-expanded="false">
+          <span class="oficio-kicker">02</span>
+          <h3>Perfume de ocasión</h3>
+          <p>Celebraciones, visitas y momentos que piden una presencia más marcada. DORIA distingue lo que conviene a una noche de lo que conviene a una jornada, y lo dice antes de la compra. La sobriedad también cabe en una fragancia de ocasión.</p>
+        </button>
+        <button class="oficio-item" type="button" aria-expanded="false">
+          <span class="oficio-kicker">03</span>
+          <h3>Regalo</h3>
+          <p>Cuando el perfume es para otra persona, el consejo cambia. Preguntamos por quien lo va a recibir, por lo que ya usa y por lo que conviene evitar. Un regalo, en esta casa, no es un frasco al azar: es una elección que se puede explicar.</p>
+        </button>
+        <button class="oficio-item" type="button" aria-expanded="false">
+          <span class="oficio-kicker">04</span>
+          <h3>Selección de la casa</h3>
+          <p>La vitrina reúne fragancias que DORIA puede responder. Cada una se conserva con cuidado y se presenta con su familia aromática, su concentración y su carácter. Lo que no podemos explicar con honestidad no entra a la selección.</p>
+        </button>
+        <button class="oficio-item" type="button" aria-expanded="false">
+          <span class="oficio-kicker">05</span>
+          <h3>Cuidado del frasco</h3>
+          <p>El perfume se altera con el calor, la luz directa y el frasco abierto sin necesidad. Indicamos cómo guardarlo y qué esperar del uso. Cuidar, aquí, es conservar la fragancia, no prometer que un perfume abierto dure para siempre.</p>
+        </button>
+        <button class="oficio-item" type="button" aria-expanded="false">
+          <span class="oficio-kicker">06</span>
+          <h3>Asesoría</h3>
+          <p>Acompañamos la elección desde la primera pregunta. Ayudamos a distinguir notas, concentraciones y ocasiones para que la compra no dependa de una moda pasajera. La asesoría termina en una recomendación clara, con DORIA como interlocutor único.</p>
+        </button>
+      </div>
+    </section>
+
+    <section class="panel" id="mision">
+      <div class="panel-bg" data-parallax style="background-image:url('https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=2000&q=80')"></div>
+      <div class="panel-overlay"></div>
+      <div class="panel-copy reveal">
+        <p class="eyebrow light">03 · Misión</p>
+        <h2>Elegir con exactitud lo que se va a llevar.</h2>
+        <div class="rich-bind" data-bind="mision">En DORIA seleccionamos y ofrecemos perfumes con criterio, sobriedad y un trato directo. Nuestra misión es ayudar a cada persona a encontrar una fragancia que le corresponda: por su carácter, por la ocasión y por la permanencia en la piel. La tienda está en Carmen de Carupa y el acompañamiento es claro desde la primera conversación hasta la entrega del frasco.
+
+No perseguimos la novedad vacía. Buscamos que cada elección sea consciente, que el origen del perfume se pueda explicar y que quien compra sepa quién responde por lo que lleva. El estándar de esta casa es simple de enunciar y exigente de cumplir: producto auténtico, consejo honesto y trato sin ambigüedad.</div>
+        <div class="btn-row">
+          <a class="btn btn-gold" href="contacto.html">Escribir a la tienda</a>
+          <a class="btn btn-ghost" href="#vision">Leer la visión</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="vision" id="vision">
+      <div class="vision-media">
+        <img src="https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?auto=format&fit=crop&w=1800&q=80" alt="Frascos de perfume con luz suave" loading="lazy">
+      </div>
+      <div class="vision-copy reveal">
+        <p class="eyebrow">04 · Visión</p>
+        <h2>Ser la tienda a la que se vuelve cuando el perfume debe ser verdadero.</h2>
+        <div class="rich-bind" data-bind="vision">Aspiramos a que DORIA sea, en Carmen de Carupa y para quienes eligen con exigencia, la tienda de referencia cuando se busca un perfume bien explicado y bien cuidado. Queremos una casa reconocida por la verdad de lo que vende, la discreción del consejo y la calidad de la atención.
+
+Nuestra visión es que familias y visitantes encuentren aquí un interlocutor único, capaz de escuchar un gusto y devolver una fragancia adecuada; y que cada frasco se recuerde por lo que es, no por una promesa inflada. Desde Carmen de Carupa queremos sostener un estándar sereno, responsable y de alta gama.</div>
+        <a class="btn btn-line" href="#historia">Recorrer la historia</a>
+      </div>
+    </section>
+
+    <div class="section-stats" id="cifras">
+      <div class="stats">
+        <article class="stat">
+          <b><span data-count="40">0</span></b>
+          <span>Años de oficio continuo en Carmen de Carupa, contados desde la apertura de la primera vitrina.</span>
+        </article>
+        <article class="stat">
+          <b><span data-count="6">0</span></b>
+          <span>Líneas de la casa: uso diario, ocasión, regalo, selección, cuidado y asesoría.</span>
+        </article>
+        <article class="stat">
+          <b><span data-count="5">0</span></b>
+          <span>Criterios de la sede: origen, notas, conservación, consejo y entrega.</span>
+        </article>
+        <article class="stat">
+          <b><span data-count="100" data-suffix="%">0</span></b>
+          <span>De las fragancias se explican antes de que usted decida.</span>
+        </article>
+      </div>
+      <p class="stats-note">Cifras de método, no de vanidad. Describen la forma de trabajar de DORIA en la Calle 2 #094 y pueden actualizarse si cambia el alcance de la casa.</p>
+    </div>
+
+    <section class="section" id="proceso">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span>05</span> Proceso</p>
+          <h2>Seis pasos. Ninguno se salta, ninguno se esconde.</h2>
+          <p class="lede">Una compra en DORIA no es un frasco tomado al azar. Es una secuencia visible, con decisiones que usted aprueba antes de llevarse la fragancia.</p>
+        </div>
+        <ol class="process-list">
+          <li class="process-step reveal">
+            <strong>01</strong>
+            <div>
+              <h3>Conversación</h3>
+              <p>Entendemos el gusto, la ocasión y el carácter que busca. Puede escribir por el formulario o acercarse a la tienda en el horario publicado. En esta primera escucha no hay prisa por vender: hay prisa por comprender si la casa es el interlocutor correcto.</p>
+            </div>
+          </li>
+          <li class="process-step reveal">
+            <strong>02</strong>
+            <div>
+              <h3>Prueba</h3>
+              <p>En la tienda de Carmen de Carupa se prueba con calma. Se distingue la primera impresión de lo que permanece. Una prueba bien hecha evita el perfume que solo gusta en el primer minuto. Si conviene esperar a que la fragancia se asiente, lo decimos y no apuramos la decisión.</p>
+            </div>
+          </li>
+          <li class="process-step reveal">
+            <strong>03</strong>
+            <div>
+              <h3>Explicación</h3>
+              <p>Nombramos la familia aromática, la concentración y el carácter del perfume. Nada se presenta como si fuera otra cosa. La explicación dice qué puede esperar en la piel y qué no prometemos. El precio y el alcance de la compra se conversan antes, no después.</p>
+            </div>
+          </li>
+          <li class="process-step reveal">
+            <strong>04</strong>
+            <div>
+              <h3>Elección</h3>
+              <p>En la Calle 2 #094 usted decide con la información ya dicha. El control permanece dentro de la casa: lo que se vende es lo que se puede responder. Si un perfume no está, no se sustituye en silencio por otro parecido.</p>
+            </div>
+          </li>
+          <li class="process-step reveal">
+            <strong>05</strong>
+            <div>
+              <h3>Entrega</h3>
+              <p>Entregamos el frasco cerrado, con su presentación y con la indicación de cómo guardarlo. Revisamos que corresponda a lo elegido. La entrega no es un trámite de bolsa: es el momento en que usted confirma que el perfume es el que se explicó.</p>
+            </div>
+          </li>
+          <li class="process-step reveal">
+            <strong>06</strong>
+            <div>
+              <h3>Acompañamiento</h3>
+              <p>Queda una vía directa con la casa para el cuidado del perfume y las dudas de uso. Explicamos cómo guardarlo, qué evitar y cuándo conviene volver a preguntar. La relación no se cierra en la puerta. Un perfume de DORIA sigue teniendo a quién escribir.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section-sand" id="materiales">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span>06</span> Materia</p>
+          <h2>Familias aromáticas que se nombran con claridad.</h2>
+          <p class="lede">No vendemos una imitación que prometa ser otra cosa. La conversación nombra la familia, muestra el perfume y asume el carácter real de cada fragancia.</p>
+        </div>
+        <div class="material-grid">
+          <article class="material-card reveal">
+            <div class="zoom-media"><img src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=1200&q=80" alt="Frasco de perfume en detalle" loading="lazy"></div>
+            <div>
+              <h3>Cítricas</h3>
+              <p>Salida luminosa, fresca y directa. Conviene a quien busca una presencia ligera para el día. Se explican sin disfrazarlas de algo más dulce de lo que son.</p>
+            </div>
+          </article>
+          <article class="material-card reveal">
+            <div class="zoom-media"><img src="https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=1200&q=80" alt="Varios frascos de perfume juntos" loading="lazy"></div>
+            <div>
+              <h3>Florales</h3>
+              <p>Presencia reconocible y una calidez que puede ser suave o intensa. Se nombran las flores que de verdad sostienen la fragancia, sin uniformar todos los florales en una sola promesa.</p>
+            </div>
+          </article>
+          <article class="material-card reveal">
+            <div class="zoom-media"><img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1200&q=80" alt="Perfume en frasco de vidrio" loading="lazy"></div>
+            <div>
+              <h3>Amaderadas</h3>
+              <p>Fondo seco, cálido y de permanencia. Se proponen cuando la persona busca una fragancia que no se agote en la primera impresión y que se sienta con sobriedad.</p>
+            </div>
+          </article>
+          <article class="material-card reveal">
+            <div class="zoom-media"><img src="https://images.unsplash.com/photo-1595425970377-c970029bf94e?auto=format&fit=crop&w=1200&q=80" alt="Perfume sobre una superficie clara" loading="lazy"></div>
+            <div>
+              <h3>Orientales</h3>
+              <p>Densidad, especias y una estela más marcada. Se proponen con franqueza sobre su intensidad: una oriental bien elegida pide ocasión, no se impone a cualquier hora.</p>
+            </div>
+          </article>
+          <article class="material-card reveal">
+            <div class="zoom-media"><img src="https://images.unsplash.com/photo-1563170351-be82bc888aa4?auto=format&fit=crop&w=1200&q=80" alt="Detalle de un perfume y su presentación" loading="lazy"></div>
+            <div>
+              <h3>Concentración</h3>
+              <p>Eau de toilette, eau de parfum y extracto no son el mismo producto. Antes de decidir se dice cuál es. La foto del frasco no sustituye esa explicación.</p>
+            </div>
+          </article>
+          <article class="material-card reveal">
+            <div class="zoom-media"><img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1200&q=80" alt="Perfume iluminado con luz suave" loading="lazy"></div>
+            <div>
+              <h3>Presentación</h3>
+              <p>El frasco, el cierre y la caja forman parte de lo que se entrega. Un perfume sin su presentación íntegra no se ofrece como si estuviera completo. Por eso el estado del producto se dice antes de la compra.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band" aria-label="Llamado a conversar">
+      <div class="cta-bg" data-parallax style="background-image:url('https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?auto=format&fit=crop&w=2000&q=80')"></div>
+      <div class="cta-copy">
+        <p class="eyebrow light">Una frase de la casa</p>
+        <h2>La alta gama, aquí, no es un adorno. Es la fragancia verdadera y el consejo claro.</h2>
+        <p>Preferimos el perfume que se puede explicar a la promesa que solo funciona en el mostrador.</p>
+        <div class="btn-row">
+          <a class="btn btn-gold" href="contacto.html">Escribir a la tienda</a>
+          <a class="btn btn-ghost" data-bind-href="whatsappHref" href="https://wa.me/573219073565?text=Hola.%20Escribo%20desde%20el%20sitio%20de%20DORIA.%20Deseo%20conversar%20sobre%20un%20perfume." target="_blank" rel="noopener noreferrer">Escribir por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="historia">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span>07</span> Historia</p>
+          <h2>Una línea de tiempo hecha de vitrinas, pruebas y decisiones.</h2>
+          <p class="lede">La casa no nació de un catálogo mudo. Nació de una tienda en Carmen de Carupa y de la obstinación de explicar antes de vender. Estos son los hitos que ordenan el relato de DORIA.</p>
+        </div>
+        <noscript><p>Active JavaScript para ver la línea de tiempo. Los hitos se leen desde el archivo de configuración de la casa.</p></noscript>
+        <ol class="timeline" data-historia></ol>
+      </div>
+    </section>
+
+    <section class="section section-sand" id="valores">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span>08</span> Valores</p>
+          <h2>Seis criterios que no se negocian en la vitrina.</h2>
+        </div>
+        <div class="value-grid">
+          <article class="value-card reveal"><span>01</span><h3>Oficio</h3><p>El conocimiento está en escuchar y en explicar bien. Nombrar una nota, una concentración y una ocasión son actos de atención, no frases que se repiten sin control.</p></article>
+          <article class="value-card reveal"><span>02</span><h3>Prueba</h3><p>Nada se recomienda sobre un supuesto. Probar con calma es el inicio del respeto por quien va a llevar la fragancia y la única manera honesta de orientar la elección.</p></article>
+          <article class="value-card reveal"><span>03</span><h3>Permanencia</h3><p>Preferimos la fragancia que se recuerda a la que solo impresiona el primer minuto. La moda puede cambiar; el consejo debe ser paciente y estar preparado para el uso real.</p></article>
+          <article class="value-card reveal"><span>04</span><h3>Autenticidad</h3><p>Un perfume no se hace pasar por otro. Si es cítrico, floral, amaderado u oriental, se dice. Si una presentación no está completa, se informa antes de la compra.</p></article>
+          <article class="value-card reveal"><span>05</span><h3>Discreción</h3><p>El gusto personal se trata con reserva. La conversación y la compra no se convierten en escaparate ni en dato que se publique con nombre.</p></article>
+          <article class="value-card reveal"><span>06</span><h3>Cuidado</h3><p>La relación no termina en la entrega. Explicamos cómo guardar el perfume y quedamos disponibles para una duda desde la misma tienda que lo ofreció.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="encargos">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span>09</span> Elecciones</p>
+          <h2>Tres maneras en las que el oficio se vuelve fragancia.</h2>
+          <p class="lede">No publicamos nombres de clientes. Publicamos el tipo de elección que la tienda sabe acompañar, porque la discreción forma parte del trato.</p>
+        </div>
+        <article class="project reveal">
+          <figure class="zoom-media project-media">
+            <img src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=1600&q=80" alt="Frasco de perfume en primer plano" loading="lazy">
+          </figure>
+          <div>
+            <p class="project-kicker">Uso diario · Carmen de Carupa</p>
+            <h3>Un perfume que acompaña la jornada.</h3>
+            <p>La persona buscaba una fragancia para todos los días, sin que llenara la habitación ni desapareciera en una hora. Se probaron opciones cítricas y amaderadas ligeras. El resultado fue una elección sobria, explicada nota por nota, que puede llevarse sin pensar en ella a cada momento.</p>
+            <p>La pausa de la prueba evitó un perfume más dulce que habría cansado a media mañana. Elegir fue confirmar, no improvisar.</p>
+          </div>
+        </article>
+        <article class="project reveal">
+          <figure class="zoom-media project-media">
+            <img src="https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=1600&q=80" alt="Colección de perfumes" loading="lazy">
+          </figure>
+          <div>
+            <p class="project-kicker">Regalo</p>
+            <h3>Un obsequio que ya tenía destinatario.</h3>
+            <p>No se eligió un frasco para decidir después a quién dárselo. Se preguntó por la persona, por lo que ya usaba y por lo que no le gustaba. El perfume floral quedó explicado para que quien lo recibe entienda qué es, sin sorpresa desagradable.</p>
+            <p>El valor estuvo en lo que no se ve: la pregunta previa, la presentación completa y la indicación de cómo guardarlo. Regalar, aquí, es resolver eso, no solo cambiar de estante.</p>
+          </div>
+        </article>
+        <article class="project reveal">
+          <figure class="zoom-media project-media">
+            <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1600&q=80" alt="Perfumes ordenados en una vitrina" loading="lazy">
+          </figure>
+          <div>
+            <p class="project-kicker">Ocasión</p>
+            <h3>Una fragancia para una noche, no para todos los días.</h3>
+            <p>Quien consultó necesitaba un perfume de ocasión, con presencia y sin exceso. Se distinguieron las orientales intensas de una opción más contenida. Se dijo la concentración y se advirtió que la estela es parte del carácter, no un defecto.</p>
+            <p>La entrega se hizo con el frasco cerrado y la explicación escrita en la conversación. Cumplir lo dicho es parte del oficio, igual que no sustituir un perfume por otro parecido.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-sand" id="galeria">
+      <div class="container-wide">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span>10</span> Galería</p>
+          <h2>Atmósferas que la tienda reconoce como propias.</h2>
+          <p class="lede">Abra cada imagen. La galería reúne frascos, detalles y atmósferas que orientan la conversación antes de la visita.</p>
+        </div>
+        <div class="gallery-grid">
+          <button class="gallery-item g-wide g-tall" type="button" data-gallery data-src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=2000&q=80" data-caption="Vitrina, proporción y calma" data-alt="Frascos de perfume">
+            <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1200&q=80" alt="Frascos de perfume en una vitrina" loading="lazy">
+            <span class="gallery-cap">Vitrina</span>
+          </button>
+          <button class="gallery-item g-tall" type="button" data-gallery data-src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=1600&q=80" data-caption="Detalle de un frasco" data-alt="Detalle de perfume">
+            <img src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=900&q=80" alt="Detalle de un frasco de perfume" loading="lazy">
+            <span class="gallery-cap">Detalle</span>
+          </button>
+          <button class="gallery-item g-tall" type="button" data-gallery data-src="https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=1600&q=80" data-caption="Colección de la casa" data-alt="Colección de perfumes">
+            <img src="https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=900&q=80" alt="Colección de perfumes" loading="lazy">
+            <span class="gallery-cap">Colección</span>
+          </button>
+          <button class="gallery-item g-wide" type="button" data-gallery data-src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=2000&q=80" data-caption="Perfume en vidrio" data-alt="Perfume en frasco de vidrio">
+            <img src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=1400&q=80" alt="Perfume en frasco de vidrio" loading="lazy">
+            <span class="gallery-cap">Vidrio</span>
+          </button>
+          <button class="gallery-item" type="button" data-gallery data-src="https://images.unsplash.com/photo-1595425970377-c970029bf94e?auto=format&fit=crop&w=1400&q=80" data-caption="Luz sobre el frasco" data-alt="Perfume con luz suave">
+            <img src="https://images.unsplash.com/photo-1595425970377-c970029bf94e?auto=format&fit=crop&w=800&q=80" alt="Perfume iluminado con luz suave" loading="lazy">
+            <span class="gallery-cap">Luz</span>
+          </button>
+          <button class="gallery-item" type="button" data-gallery data-src="https://images.unsplash.com/photo-1563170351-be82bc888aa4?auto=format&fit=crop&w=1600&q=80" data-caption="Presentación" data-alt="Presentación de un perfume">
+            <img src="https://images.unsplash.com/photo-1563170351-be82bc888aa4?auto=format&fit=crop&w=800&q=80" alt="Presentación de un perfume" loading="lazy">
+            <span class="gallery-cap">Presentación</span>
+          </button>
+          <button class="gallery-item g-wide" type="button" data-gallery data-src="https://images.unsplash.com/photo-1563170351-be82bc888aa4?auto=format&fit=crop&w=2000&q=80" data-caption="Cuidado del frasco" data-alt="Perfume y su estuche">
+            <img src="https://images.unsplash.com/photo-1563170351-be82bc888aa4?auto=format&fit=crop&w=1400&q=80" alt="Perfume y su presentación" loading="lazy">
+            <span class="gallery-cap">Cuidado</span>
+          </button>
+          <button class="gallery-item g-wide" type="button" data-gallery data-src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=2000&q=80" data-caption="Fragancia" data-alt="Perfume en luz cálida">
+            <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1400&q=80" alt="Perfume en luz cálida" loading="lazy">
+            <span class="gallery-cap">Fragancia</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="cta-bg" data-parallax style="background-image:url('https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=2000&q=80')"></div>
+      <div class="cta-copy">
+        <p class="eyebrow light">Siguiente paso</p>
+        <h2>Si ya tiene una fragancia en mente, la tienda puede escucharla.</h2>
+        <p>Un gusto, una ocasión, un regalo. Escríbanos con eso y responderemos con la misma claridad.</p>
+        <div class="btn-row">
+          <a class="btn btn-gold" href="contacto.html">Ir al formulario</a>
+          <a class="btn btn-ghost" href="#preguntas">Leer las preguntas frecuentes</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="taller">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span>11</span> La casa</p>
+          <h2>No hay un elenco de retratos. Hay oficios con nombre.</h2>
+          <p class="lede">DORIA se presenta por el trabajo, no por una galería de cargos. Estas son las cuatro tareas en las que se decide la calidad de la atención.</p>
+        </div>
+        <div class="culture-grid">
+          <article class="culture-card reveal">
+            <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1000&q=80" alt="Atención en la tienda de perfumes" loading="lazy">
+            <div>
+              <h3>Atención</h3>
+              <p>Traduce la conversación en una recomendación clara. Impide que una moda pase por delante del gusto de quien compra, y mantiene un solo hilo entre usted y la tienda.</p>
+            </div>
+          </article>
+          <article class="culture-card reveal">
+            <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1000&q=80" alt="Frasco de perfume revisado antes de la venta" loading="lazy">
+            <div>
+              <h3>Selección</h3>
+              <p>Revisa origen, presentación y estado del frasco. Nada de lo que después se explique puede corregir un perfume que no se puede responder. Por eso la selección puede dejar fuera lo que no está claro.</p>
+            </div>
+          </article>
+          <article class="culture-card reveal">
+            <img src="https://images.unsplash.com/photo-1563170351-be82bc888aa4?auto=format&fit=crop&w=1000&q=80" alt="Presentación de un perfume" loading="lazy">
+            <div>
+              <h3>Conservación</h3>
+              <p>El calor y la luz directa alteran la fragancia. Guardar bien el producto decide si llega a usted como se eligió. Aquí se cuida lo que se va a entregar, no una aproximación.</p>
+            </div>
+          </article>
+          <article class="culture-card reveal">
+            <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1000&q=80" alt="Entrega de un perfume" loading="lazy">
+            <div>
+              <h3>Entrega</h3>
+              <p>Confirma que el frasco corresponde a lo elegido y que la presentación está completa. La entrega es el último control y el primero en el que el perfume queda en sus manos.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="testimonios">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow light"><span>12</span> Voces</p>
+          <h2>Lo que se recuerda después de la elección.</h2>
+          <p class="lede">Voces de quienes eligieron un perfume en Carmen de Carupa. Se publican por el tipo de consulta, sin exponer el nombre de quien confió su gusto.</p>
+        </div>
+        <div data-slider>
+          <figure class="quote-slide is-active">
+            <blockquote>«Me hicieron probar con calma y me dijeron cuál era de día y cuál no. Esa conversación evitó un perfume que me habría cansado. El que elegí sigue siendo el que uso entre semana.»</blockquote>
+            <figcaption><b>Carmen de Carupa</b> Perfume de uso diario</figcaption>
+          </figure>
+          <figure class="quote-slide">
+            <blockquote>«Necesitaba una tienda que explicara el perfume y no solo lo mostrara. DORIA nombró las notas, advirtió la intensidad y no cambió el frasco por otro parecido. Eso vale más que una promesa de vitrina.»</blockquote>
+            <figcaption><b>Consulta en la tienda</b> Asesoría</figcaption>
+          </figure>
+          <figure class="quote-slide">
+            <blockquote>«El regalo tenía que acertar sin conocer todos los gustos. Nos preguntaron, explicaron la familia aromática y entregaron el frasco cerrado. No hubo sorpresa desagradable, y eso es exactamente lo que se necesita.»</blockquote>
+            <figcaption><b>Obsequio</b> Perfume de regalo</figcaption>
+          </figure>
+          <figure class="quote-slide">
+            <blockquote>«Me dijeron cómo guardar el perfume y qué no prometer de un frasco ya abierto. Esa honestidad es la razón por la que después volví por otro.»</blockquote>
+            <figcaption><b>Cliente de la casa</b> Cuidado y reposición</figcaption>
+          </figure>
+          <div class="quote-nav">
+            <button class="icon-btn" type="button" data-slide="-1" aria-label="Testimonio anterior">←</button>
+            <button class="icon-btn" type="button" data-slide="1" aria-label="Testimonio siguiente">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="preguntas">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span>13</span> Preguntas frecuentes</p>
+          <h2>Antes de escribir, estas respuestas suelen ahorrar una vuelta.</h2>
+        </div>
+        <div class="acc">
+          <div class="acc-item">
+            <h3><button type="button" aria-expanded="false">¿Venden únicamente lo que está en la vitrina?<i aria-hidden="true"></i></button></h3>
+            <div class="acc-panel" hidden><div class="acc-panel-inner"><p>La vitrina muestra la selección de la casa. Podemos partir de un gusto, de un perfume que usted ya conozca o de un regalo, pero la recomendación se hace en la conversación. Una foto no sustituye la explicación.</p></div></div>
+          </div>
+          <div class="acc-item">
+            <h3><button type="button" aria-expanded="false">¿Atienden solo en Carmen de Carupa?<i aria-hidden="true"></i></button></h3>
+            <div class="acc-panel" hidden><div class="acc-panel-inner"><p>La tienda está en la Calle 2 #094, Carmen de Carupa, Cundinamarca. La atención presencial es en esa sede. Si escribe desde otro lugar, puede consultar por correo: respondemos con franqueza y decimos cuándo la compra puede hacerse y cuándo no.</p></div></div>
+          </div>
+          <div class="acc-item">
+            <h3><button type="button" aria-expanded="false">¿El perfume está disponible de inmediato?<i aria-hidden="true"></i></button></h3>
+            <div class="acc-panel" hidden><div class="acc-panel-inner"><p>Lo que está en la tienda se puede entregar en el momento. Si un perfume no está, no lo sustituimos en silencio: lo decimos y, si cabe pedirlo, acordamos el plazo por escrito. Preferimos prometer una fecha que podamos cumplir.</p></div></div>
+          </div>
+          <div class="acc-item">
+            <h3><button type="button" aria-expanded="false">¿Puedo visitar la tienda?<i aria-hidden="true"></i></button></h3>
+            <div class="acc-panel" hidden><div class="acc-panel-inner"><p>Sí, en el horario publicado. Escríbanos por el formulario, al correo joanau158@gmail.com o al WhatsApp +57 321 907 3565 y coordinaremos la visita: lunes a viernes de 8:00 a 17:30 y sábados de 9:00 a 13:00.</p></div></div>
+          </div>
+          <div class="acc-item">
+            <h3><button type="button" aria-expanded="false">¿Qué perfumes ofrecen?<i aria-hidden="true"></i></button></h3>
+            <div class="acc-panel" hidden><div class="acc-panel-inner"><p>Ofrecemos fragancias de distintas familias —cítricas, florales, amaderadas y orientales— y distintas concentraciones. Cada recomendación nombra el carácter del perfume antes de la compra. No hacemos pasar un producto por otro.</p></div></div>
+          </div>
+          <div class="acc-item">
+            <h3><button type="button" aria-expanded="false">¿Cómo se cotiza y cuándo nace el contrato?<i aria-hidden="true"></i></button></h3>
+            <div class="acc-panel" hidden><div class="acc-panel-inner"><p>El precio, el producto y las condiciones se confirman antes de la compra. Un mensaje por este sitio no es, por sí solo, una venta cerrada. El detalle está en los <a href="terminos.html">Términos y condiciones</a>.</p></div></div>
+          </div>
+          <div class="acc-item">
+            <h3><button type="button" aria-expanded="false">¿Qué ocurre con mis datos personales?<i aria-hidden="true"></i></button></h3>
+            <div class="acc-panel" hidden><div class="acc-panel-inner"><p>Tratamos los datos del formulario conforme a la <a href="privacidad.html">Política de privacidad</a> y a la Ley 1581 de 2012. Se usan para responder su solicitud y dar curso al encargo, no para un fin distinto. Puede pedir acceso, corrección o supresión escribiendo a joanau158@gmail.com.</p></div></div>
+          </div>
+          <div class="acc-item">
+            <h3><button type="button" aria-expanded="false">¿Es obligatorio aceptar los términos para escribir por el formulario?<i aria-hidden="true"></i></button></h3>
+            <div class="acc-panel" hidden><div class="acc-panel-inner"><p>Sí. El formulario solo se envía si usted marca la casilla de aceptación, después de poder leer el texto de los Términos y condiciones. Si no está de acuerdo con ese marco, puede escribirnos por correo y le indicaremos cómo seguir la conversación.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-band" id="contacto-casa">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <p class="eyebrow"><span>14</span> Contacto</p>
+          <h2>La tienda atiende en su horario.</h2>
+          <p class="lede">Cuéntenos el gusto, la ocasión o el regalo que tiene en mente. La respuesta sale de la Calle 2 #094, no de un conmutador anónimo.</p>
+          <div class="btn-row">
+            <a class="btn btn-dark" href="contacto.html">Abrir el formulario</a>
+            <a class="btn btn-line" data-bind-href="mapsHref" href="https://www.google.com/maps/search/?api=1&query=Calle%202%20%23094%20Carmen%20de%20Carupa" target="_blank" rel="noopener noreferrer">Ver la sede en el mapa</a>
+          </div>
+        </div>
+        <ul class="contact-list reveal">
+          <li><span>Responsable</span><strong data-bind="responsable">José Luis Doria Tapia</strong></li>
+          <li><span>Dirección</span><strong data-bind="direccionCompleta">Calle 2 #094, Carmen de Carupa, Cundinamarca, 250420</strong></li>
+          <li><span>Celular y WhatsApp</span><a data-bind-href="whatsappHref" href="https://wa.me/573219073565?text=Hola.%20Escribo%20desde%20el%20sitio%20de%20DORIA.%20Deseo%20conversar%20sobre%20un%20perfume." target="_blank" rel="noopener noreferrer"><strong data-bind="celular">+57 321 907 3565</strong></a></li>
+          <li><span>Correo</span><a data-bind-href="emailHref" href="mailto:joanau158@gmail.com"><strong data-bind="email">joanau158@gmail.com</strong></a></li>
+          <li><span>Horario</span><strong data-bind="horario">Lunes a viernes de 8:00 a 17:30 · Sábados de 9:00 a 13:00</strong></li>
+          <li><span>ID de campaña</span><strong class="campana-inline" data-bind="campanaId"></strong></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <p class="footer-name" data-bind="nombre">DORIA</p>
+        <p class="footer-person" data-bind="responsable">José Luis Doria Tapia</p>
+        <p class="footer-rubro" data-bind="rubro">Tienda de perfumes</p>
+        <p>Tienda de perfumes en Carmen de Carupa. Fragancias auténticas, consejo directo y un trato claro.</p>
+      </div>
+      <div>
+        <h2>Mapa del sitio</h2>
+        <ul class="footer-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="index.html#casa">La casa</a></li>
+          <li><a href="index.html#oficio">Oficio</a></li>
+          <li><a href="index.html#proceso">Proceso</a></li>
+          <li><a href="index.html#historia">Historia</a></li>
+          <li><a href="index.html#galeria">Galería</a></li>
+          <li><a href="index.html#preguntas">Preguntas</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contacto</h2>
+        <address>
+          <span data-bind="direccion">Calle 2 #094</span><br>
+          <span data-bind="ciudad">Carmen de Carupa, Cundinamarca</span>
+        </address>
+        <p><a data-bind-href="celularHref" href="tel:+573219073565"><span data-bind="celular">+57 321 907 3565</span></a></p>
+        <p><a data-bind-href="emailHref" href="mailto:joanau158@gmail.com"><span data-bind="email">joanau158@gmail.com</span></a></p>
+        <p class="footer-hours" data-bind="horario">Lunes a viernes de 8:00 a 17:30 · Sábados de 9:00 a 13:00</p>
+      </div>
+      <div class="footer-campaign">
+        <h2>Campaña</h2>
+        <p class="campana-label">ID de campaña</p>
+        <p class="campana-value" data-bind="campanaId"></p>
+        <p>Este identificador acompaña el sitio, el pie de página y el formulario de contacto.</p>
+        <a class="btn btn-gold btn-sm" data-bind-href="whatsappHref" href="https://wa.me/573219073565?text=Hola.%20Escribo%20desde%20el%20sitio%20de%20DORIA.%20Deseo%20conversar%20sobre%20un%20perfume." target="_blank" rel="noopener noreferrer">Escribir por WhatsApp</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span data-year>2026</span> <span data-bind="nombre">DORIA</span>. Todos los derechos reservados.</p>
+      <nav aria-label="Legal">
+        <a href="privacidad.html">Privacidad</a>
+        <a href="terminos.html">Términos y condiciones</a>
+        <a href="cookies.html">Política de cookies</a>
+        <button type="button" data-cookie-open>Configurar cookies</button>
+      </nav>
+    </div>
+  </footer>
+
+  <a class="wa-float" data-bind-href="whatsappHref" href="https://wa.me/573219073565?text=Hola.%20Escribo%20desde%20el%20sitio%20de%20DORIA.%20Deseo%20conversar%20sobre%20un%20perfume." target="_blank" rel="noopener noreferrer" aria-label="Escribir por WhatsApp a DORIA">
+    <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="currentColor"><path d="M20.5 3.5A11 11 0 0 0 2.1 17.8L1 23l5.3-1.1A11 11 0 0 0 20.5 3.5zm-8.5 17a9.1 9.1 0 0 1-4.6-1.3l-.3-.2-3.2.7.7-3.1-.2-.3A9.1 9.1 0 1 1 12 20.5zm5-6.8c-.3-.1-1.6-.8-1.8-.9s-.4-.1-.6.1-.7.9-.8 1-.3.2-.6.1a7.4 7.4 0 0 1-2.2-1.4 8.2 8.2 0 0 1-1.5-1.9c-.2-.3 0-.4.1-.6l.4-.4.2-.3a.5.5 0 0 0 0-.5c-.1-.1-.6-1.4-.8-1.9s-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 2.9 2.9 0 0 0-.9 2.2 5 5 0 0 0 1.1 2.7 11.4 11.4 0 0 0 4.4 3.9c.6.3 1 .4 1.5.5a3.6 3.6 0 0 0 1.6.1 2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .2-1.2c-.1-.2-.3-.2-.6-.4z"/></svg>
+    <span>WhatsApp</span>
+  </a>
+  <button class="to-top" type="button" aria-label="Volver arriba">↑</button>
+
+  <div class="cookie-banner" role="dialog" aria-labelledby="cookie-title">
+    <p class="eyebrow">Privacidad</p>
+    <h2 id="cookie-title">Cookies de esta casa</h2>
+    <p>Usamos una cookie necesaria para recordar su decisión. Las categorías de preferencias, analítica y marketing permanecen inactivas salvo que usted las autorice. Puede aceptar, rechazar o configurar.</p>
+    <p><a href="cookies.html">Leer la política de cookies</a></p>
+    <div class="cookie-actions">
+      <button class="btn btn-gold btn-sm" type="button" data-cookie-accept>Aceptar</button>
+      <button class="btn btn-dark btn-sm" type="button" data-cookie-reject>Rechazar</button>
+      <button class="btn btn-line" type="button" data-cookie-config>Configurar</button>
+    </div>
+  </div>
+
+  <div class="modal cookie-modal" hidden>
+    <div class="modal-backdrop"></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="cookie-modal-title">
+      <div class="modal-head">
+        <h2 id="cookie-modal-title">Configurar cookies</h2>
+        <button class="modal-close" type="button" aria-label="Cerrar">×</button>
+      </div>
+      <p>Elija qué categorías autoriza. La cookie necesaria no puede desactivarse: guarda esta misma elección en su navegador durante ciento ochenta días.</p>
+      <ul class="cookie-options">
+        <li>
+          <div><strong>Necesarias</strong><p>Recuerdan si aceptó, rechazó o configuró las cookies. Siempre activas.</p></div>
+          <input type="checkbox" checked disabled aria-label="Cookies necesarias, siempre activas">
+        </li>
+        <li>
+          <div><strong>Preferencias</strong><p>Recordarían ajustes de visualización si el sitio los incorporara. Hoy no se instalan.</p></div>
+          <input id="ck-pref" type="checkbox" aria-label="Permitir cookies de preferencias">
+        </li>
+        <li>
+          <div><strong>Analítica</strong><p>Servirían para medir visitas de forma agregada. Este sitio no carga medidores de terceros.</p></div>
+          <input id="ck-ana" type="checkbox" aria-label="Permitir cookies de analítica">
+        </li>
+        <li>
+          <div><strong>Marketing</strong><p>Permitirían medición publicitaria. DORIA no las activa sin su aceptación expresa.</p></div>
+          <input id="ck-mkt" type="checkbox" aria-label="Permitir cookies de marketing">
+        </li>
+      </ul>
+      <div class="modal-actions">
+        <button class="btn btn-dark btn-sm" type="button" data-cookie-reject>Rechazar opcionales</button>
+        <button class="btn btn-line" type="button" data-cookie-save>Guardar selección</button>
+        <button class="btn btn-gold btn-sm" type="button" data-cookie-accept>Aceptar todas</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="lightbox" hidden>
+    <div class="lightbox-backdrop"></div>
+    <button class="lightbox-close" type="button" aria-label="Cerrar galería">×</button>
+    <button class="lightbox-nav prev" type="button" aria-label="Imagen anterior">←</button>
+    <button class="lightbox-nav next" type="button" aria-label="Imagen siguiente">→</button>
+    <figure class="lightbox-figure">
+      <img alt="">
+      <figcaption></figcaption>
+    </figure>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
